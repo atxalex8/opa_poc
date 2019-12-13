@@ -1,0 +1,15 @@
+{
+  "fasdfasdfasdf" : {
+    "pattern" : {
+      "resourceType": "",
+      "name": "",
+      "patternType" : "LITERAL|PREFIXED"
+    },
+    "entry" : {
+      "principal":"",
+      "host": "",
+      "operation": "",
+      "permissionType": ""
+    }
+  }
+}

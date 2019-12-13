@@ -66,6 +66,14 @@ test_action_matches_direct_match {
 	action_matches("svc:verb", "svc:verb")
 }
 
+test_action_matches_direct_match_not_1 {
+	not action_matches("svc:verb1", "svc:verb")
+}
+
+test_action_matches_direct_match_not_2 {
+	not action_matches("svc:verb", "svc1:verb")
+}
+
 test_action_matches_wildcard_match {
 	action_matches("svc:verb", "*")
 }
